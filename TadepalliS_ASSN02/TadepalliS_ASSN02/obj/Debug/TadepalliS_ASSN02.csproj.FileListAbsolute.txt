@@ -1,0 +1,9 @@
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN02\TadepalliS_ASSN02\bin\Debug\TadepalliS_ASSN02.exe.config
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN02\TadepalliS_ASSN02\bin\Debug\TadepalliS_ASSN02.exe
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN02\TadepalliS_ASSN02\bin\Debug\TadepalliS_ASSN02.pdb
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN02\TadepalliS_ASSN02\obj\Debug\TadepalliS_ASSN02.csprojAssemblyReference.cache
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN02\TadepalliS_ASSN02\obj\Debug\TadepalliS_ASSN02.Form1.resources
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN02\TadepalliS_ASSN02\obj\Debug\TadepalliS_ASSN02.Properties.Resources.resources
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN02\TadepalliS_ASSN02\obj\Debug\TadepalliS_ASSN02.csproj.GenerateResource.cache
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN02\TadepalliS_ASSN02\obj\Debug\TadepalliS_ASSN02.exe
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN02\TadepalliS_ASSN02\obj\Debug\TadepalliS_ASSN02.pdb

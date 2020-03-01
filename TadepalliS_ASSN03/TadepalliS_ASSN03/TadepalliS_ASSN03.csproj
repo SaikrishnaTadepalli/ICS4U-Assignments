@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4D033CE-139D-4DAE-B72E-C38F65CA67B0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TadepalliS_ASSN03</RootNamespace>
+    <AssemblyName>TadepalliS_ASSN03</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="DeckOfCards.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\AceOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\AceOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\AceOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\AceOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\DeuceOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\DeuceOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\DeuceOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\DeuceOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\EightOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\EightOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\EightOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\EightOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\FiveOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\FiveOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\FiveOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\FiveOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\FourOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\FourOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\FourOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\FourOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\JackOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\JackOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\JackOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\JackOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\KingOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\KingOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\KingOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\KingOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\NineOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\NineOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\NineOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\NineOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\QueenOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\QueenOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\QueenOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\QueenOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\SevenOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\SevenOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\SevenOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\SevenOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\SixOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\SixOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\SixOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\SixOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\TenOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\TenOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\TenOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\TenOfSpades.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\ThreeOfClubs.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\ThreeOfDiamonds.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\ThreeOfHearts.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Resources\ThreeOfSpades.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

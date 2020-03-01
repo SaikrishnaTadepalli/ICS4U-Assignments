@@ -1,0 +1,10 @@
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN01\TadepalliS_ASSN01\bin\Debug\netcoreapp2.1\TadepalliS_ASSN01.deps.json
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN01\TadepalliS_ASSN01\bin\Debug\netcoreapp2.1\TadepalliS_ASSN01.runtimeconfig.json
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN01\TadepalliS_ASSN01\bin\Debug\netcoreapp2.1\TadepalliS_ASSN01.runtimeconfig.dev.json
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN01\TadepalliS_ASSN01\bin\Debug\netcoreapp2.1\TadepalliS_ASSN01.dll
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN01\TadepalliS_ASSN01\bin\Debug\netcoreapp2.1\TadepalliS_ASSN01.pdb
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN01\TadepalliS_ASSN01\obj\Debug\netcoreapp2.1\TadepalliS_ASSN01.csprojAssemblyReference.cache
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN01\TadepalliS_ASSN01\obj\Debug\netcoreapp2.1\TadepalliS_ASSN01.AssemblyInfoInputs.cache
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN01\TadepalliS_ASSN01\obj\Debug\netcoreapp2.1\TadepalliS_ASSN01.AssemblyInfo.cs
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN01\TadepalliS_ASSN01\obj\Debug\netcoreapp2.1\TadepalliS_ASSN01.dll
+C:\Users\saikr\source\repos\C#\TadepalliS_ASSN01\TadepalliS_ASSN01\obj\Debug\netcoreapp2.1\TadepalliS_ASSN01.pdb
